@@ -31,7 +31,7 @@ We implement a machine-learning based approach to detect Distributed Denial of S
 - The terminal has already started the **Mininet CLI**.
 - Test your network by using *ping* and *pingall* commands.
 - Open one of the host's terminal using **xterm**. Sample command: `xterm h1`
-- Run the *hping3 flooding* program on the host terminal: `sudo python3 pox/ext/hping3_flood.py 10.0.0.31`
+- Run the **hping3 flooding** program on the host terminal: `sudo python3 pox/ext/hping3_flood.py 10.0.0.31`
     - Here, *10.0.0.31* is the Host IP.
     - This program will flood the network with high volumes of random ICMP packets at regular intervals, hence creating a DDoS attack.
 
