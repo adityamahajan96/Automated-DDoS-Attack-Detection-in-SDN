@@ -9,7 +9,7 @@ We implement a machine-learning based approach to detect Distributed Denial of S
 ### Simulation of DDoS Attack using mininet
 
 ### Classification
-We classify the traffic into benign (labelled as "0") and malicious (labelled as "1").  We have learned total of 7 different classifier model, viz. Logistic Regression (LR), Support Vector Classifier(SVC), Ensemble Classifier(GBC), Decision Tree (DT), Artificial Neural Network (ANN) and Deep Learning (LSTM) to identfy the incoming traffic as Normal or Attack. Details about all the models is there in notebooks. The analysis can be found in the **Analysis** section of the source code (notebook).  
+We classify the traffic into benign (labelled as "0") and malicious (labelled as "1").  We have trained a total of 7 different classifier models, viz. Gaussian Naive Bayes (GNB), Logistic Regression (LR), Support Vector Classifier(SVC), Ensemble Classifier(GBC), Decision Tree (DT), Artificial Neural Network (ANN) and Deep Learning (LSTM) to identify the incoming traffic as Normal (benign) or Attack (malicious). Further details about the models and the analysis have been provided in the notebook.    
 
 ### Observations
 The following table shows the observed results for all the classifiers:  
